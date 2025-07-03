@@ -89,9 +89,11 @@ Using [npm](https://www.npmjs.com/):
 npm start
 ```
 
-###Testing
-Sreya-Ann-Prasad-Portfolio uses the {test_framework} test framework. Run the test Suite with:
-Using[npm](https://www.npmjs.com/):
+### Usage
+
+Run the project with:
+
+Using [npm](https://www.npmjs.com/):
 
 ```bash
 npm test
