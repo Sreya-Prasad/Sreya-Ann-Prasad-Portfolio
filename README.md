@@ -20,7 +20,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Testing](#testing)
 
 ---
 
@@ -46,10 +45,10 @@ This project provides a dynamic, secure, and visually appealing online presence 
 
 ### Prerequisites
 
-This project requires the following dependencies:
+To run this project, all you need is:
 
-- **Programming Language**: JavaScript  
-- **Package Manager**: Npm
+- A modern web browser (e.g., Chrome, Firefox)
+- A simple local or online HTML server (optional)
 
 [🔝 Return to Top](#sreya-ann-prasad-portfolio)
 
@@ -57,47 +56,27 @@ This project requires the following dependencies:
 
 ### Installation
 
-Build **Sreya-Ann-Prasad-Portfolio** from the source and install dependencies:
-
 1. **Clone the repository**:
 
     ```bash
     git clone https://github.com/Sreya-Prasad/Sreya-Ann-Prasad-Portfolio
     ```
 
-2. **Navigate to the project directory**:
+2. **Open the project folder** in your file explorer.
 
-    ```bash
-    cd Sreya-Ann-Prasad-Portfolio
-    ```
+3. **Launch `index.html`** in your browser by double-clicking it, or open it via a browser or a local development server like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
 
-3. **Install the dependencies**:
+[🔝 Return to Top](#sreya-ann-prasad-portfolio)
 
-    Using [npm](https://www.npmjs.com/):
-
-    ```bash
-    npm install
-    ```
+---
 
 ### Usage
 
-Run the project with:
+Once opened in a browser, you can:
 
-Using [npm](https://www.npmjs.com/):
-
-```bash
-npm start
-```
-
-### Testing
-
-Sreya-Ann-Prasad_portfolio uses the {test_framework} test framewok. Run the test suite with:
-
-Using [npm](https://www.npmjs.com/):
-
-```bash
-npm test
-```
+- View animated sections and certificates.
+- Explore your skills, projects, and experience.
+- Use the contact form to reach out (via `mailto:` or EmailJS, if configured).
 
 [🔝 Return to Top](#sreya-ann-prasad-portfolio)
 
