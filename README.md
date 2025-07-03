@@ -89,9 +89,9 @@ Using [npm](https://www.npmjs.com/):
 npm start
 ```
 
-### Usage
+### Testing
 
-Run the project with:
+Sreya-Ann-Prasad_portfolio uses the {test_framework} test framewok. Run the test suite with:
 
 Using [npm](https://www.npmjs.com/):
 
