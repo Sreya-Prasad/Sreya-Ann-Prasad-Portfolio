@@ -1,84 +1,66 @@
-# SREYA-ANN-PRASAD-PORTFOLIO
+# 🌐 Personal Portfolio - Sreya Ann Prasad
 
-*Showcasing Innovation, Inspiring Connections, Empowering Growth*
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Sreya-Prasad/Sreya-Ann-Prasad-Portfolio?color=blue&label=last%20commit)
-![HTML](https://img.shields.io/badge/html-63.4%25-blue)
-![Languages](https://img.shields.io/badge/languages-3-blue)
-
-*Built with the tools and technologies:*
-
-HTML
-CSS
-JavaScript
+Welcome to my personal portfolio website! This responsive web application is built to showcase my projects, skills, education, certifications, and internship experiences. It reflects my journey as a web developer, Python programmer, and aspiring data scientist.
 
 ---
 
-## Table of Contents
+## 🔍 Overview
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-
----
-
-## Overview
-
-**Sreya-Ann-Prasad-Portfolio** is a sleek, interactive web-based portfolio designed to showcase personal projects, skills, and experience with engaging animations and security features. It serves as a central digital hub for developers to present their expertise and professional achievements effectively.
-
-### Why Sreya-Ann-Prasad-Portfolio?
-
-This project provides a dynamic, secure, and visually appealing online presence for developers to highlight their expertise and connect with potential collaborators. The core features include:
-
-- 🖱️ **Interactive Animations**: Smoothly animate section visibility upon scrolling to enhance user engagement.
-- 🪪 **Contact Integration**: Facilitate easy communication through a built-in mailto contact form.
-- 🔒 **Content Security**: Disable right-click, drag, and text selection to protect intellectual property.
-- 🧩 **Responsive Design**: Ensure optimal viewing experience across various devices and screen sizes.
-- 🚀 **User-Friendly Interface**: Combine visual appeal with intuitive navigation for a professional portfolio experience.
-
-[🔝 Return to Top](#sreya-ann-prasad-portfolio)
+This portfolio is designed to create a professional digital presence and includes the following sections:
+- **Home** – Introduction and tagline
+- **About Me** – A brief about my background and passions, contact, resume
+- **Skills** – Technical skills, education, and certifications
+- **Experience** – Descriptions of past internship/work experience
+- **Projects** – Highlights of my work with live GitHub links
+- **Contact** – A working contact form using EmailJS
 
 ---
 
-## Getting Started
+## 🛠️ Technologies Used
 
-### Prerequisites
-
-To run this project, all you need is:
-
-- A modern web browser (e.g., Chrome, Firefox)
-- A simple local or online HTML server (optional)
-
-[🔝 Return to Top](#sreya-ann-prasad-portfolio)
+| Frontend        | Others        |
+|-----------------|---------------|
+| HTML5           | EmailJS API   |
+| CSS3            | GitHub Pages  |
+| JavaScript      | Google Fonts  |
+| Bootstrap       | Font Awesome  |
 
 ---
 
-### Installation
+## 📂 Folder Structure
 
-1. **Clone the repository**:
+```
 
-    ```bash
-    git clone https://github.com/Sreya-Prasad/Sreya-Ann-Prasad-Portfolio
-    ```
+├── portfolio.html
+├── style.css
+├── index.js
+├── images/
+│   ├── profile & project images
+├── README.md
 
-2. **Open the project folder** in your file explorer.
-
-3. **Launch `portfolio.html`** in your browser by double-clicking it, or open it via a browser or a local development server like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
-
-[🔝 Return to Top](#sreya-ann-prasad-portfolio)
+```
 
 ---
 
-### Usage
+## 🚀 How to Use
 
-Once opened in a browser, you can:
+1. Clone the repository  
+   `git clone https://github.com/Sreya-Prasad/Sreya-Ann-Prasad-Portfolio.git`
 
-- View animated sections and certificates.
-- Explore your skills, projects, and experience.
-- Use the contact form to reach out (via `mailto:` or EmailJS, if configured).
+2. Open `portfolio.html` in your browser to view the site locally.
 
-[🔝 Return to Top](#sreya-ann-prasad-portfolio)
+3. To enable the contact form:
+   - Set up an account on [EmailJS](https://www.emailjs.com/)
+   - Replace the placeholders in `index.js` with your service ID, template ID, and user ID.
 
+---
+
+## 📫 Contact
+
+- **Email**: sreyaannprasad@gmail.com  
+- **LinkedIn**: [linkedin.com/in/sreya-prasad](https://linkedin.com/in/sreya-prasad)  
+- **GitHub**: [github.com/Sreya-Prasad](https://github.com/Sreya-Prasad)
+---
+
+Thank you for visiting my portfolio! 🌟
 ---
