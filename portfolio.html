@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sreya Prasad</title>
+    <!-- External style sheets-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo"></a>
+            <div class="nav-links">
+                <a href="#home" class="nav-btn" id="home-link">Home</a>
+                <a href="#about" class="nav-btn">About</a>
+                <a href="#skills" class="nav-btn" class="nav-btn">Resume</a>
+                <a href="#projects" class="nav-btn">Projects</a>
+                <a href="#contact" class="nav-btn">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== HEADER / HERO SECTION ===================== -->
+    <header class="hero" id="home">
+        <div class="hero-text">
+            <h1>Hello, I'm <br><strong>Sreya Prasad</strong></h1>
+                <h2>Python Developer | Web Developer | Aspiring Data Scientist</h2>
+                <!-- Button to download resume-->
+                    <button onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Resume</button>
+        </div>
+        <!-- Profile Image-->
+        <div class="hero-image">
+            <img src="images/pic-removebg-preview.png" class="image" alt="Sreya Ann Prasad" oncontextmenu="return false;" ondragstart="return false;" style="pointer-events: none;">
+        </div>
+    </header>
+
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section id="about" class="section" style="background-color: #dfb6b2;">
+        <div class="about-contact-container">
+            <div class="about-box">
+                <h2>ABOUT ME</h2>
+                <div class="content">
+                    <p>&nbsp;Hi! I'm <strong>Sreya Ann Prasad</strong> a motivated and dedicated Computer Science Engineering undergraduate with a strong foundation in software development, problem-solving, and innovative thinking. I'm a self-taught web developer and Python programmer with hands-on experience in both front-end and back-end development through personal projects and continuous learning.
+                        <br>
+                        &nbsp;I'm always eager to grow, constantly seeking opportunities to enhance my skills and stay up to date with the latest technologies. I'm passionate about building efficient, user-friendly, and creative digital solutions that make a meaningful impact.
+                        <br>
+                        &nbsp;My journey into tech began with curiosity and a love for learning, which quickly grew into a deep interest in creating smart, accessible, and visually appealing web applications. I've explored a range of technologies including HTML, CSS, JavaScript, Bootstrap, Python, Django, MySQL, and APIs. I also enjoy working with version control tools like Git and GitHub.
+                        <br>
+                        &nbsp;Beyond coding, I enjoy working on collaborative projects, solving real-world problems, and pushing myself outside of my comfort zone. I believe that every line of code can be a step toward a smarter solution, and I'm excited to be part of an industry that never stops evolving.
+                        <br><br>
+                        Let’s connect and build something amazing together!</p>
+                        <!-- Download resume button-->
+                    <a href="images/SREYA ANN PRASAD.pdf" target="_blank"><button id="resume-btn" class="btn" style="padding: 0.8rem 1.8rem;  color: white; border: none; border-radius: 5px; font-size: 1rem;">Resume</button></a>
+                </div>
+            </div>
+            <!-- Contact Information-->
+            <div class="contact-box">
+                <img src="images/Photo .jpg" alt="Profile Photo" class="profile-photo-square" oncontextmenu="return false;" ondragstart="return false;" style="pointer-events: none;">
+                <h2 style="text-align: left;">Sreya Ann Prasad</h2>
+                    <p><strong>Email:</strong> sreyaannprasad@gmail.com</p>
+                    <p><strong>LinkedIn:</strong> https://linkedin.com/in/sreya-prasad</p>
+                    <p><strong>GitHub:</strong> https://github.com/Sreya-Prasad</p>
+                    <!-- Links to social media platforms-->
+                    <p><strong>View Profiles:</strong></p>
+                    <div class="contact-links" style="display: flex;">
+                        <a href="https://github.com/Sreya-Prasad" target="_blank"><i class="fab fa-github" style="font-size: 40px;"></i></a>
+                        <a href="https://linkedin.com/in/sreya-prasad" target="_blank"><i class="fab fa-linkedin" style="font-size: 40px;"></i></a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!-- ===================== SKILLS / RESUME SECTION ===================== -->
+    <section id="skills" class="section">
+        <h2>RESUME</h2>
+        <div class="skills-container">
+            <!-- SKILLS SECTION -->
+            <div class="skill-box">
+                <h2>Skills</h2>
+                <!-- List of skills with the corresponding value-->
+                <h3><b>Technical Skills</b></h3>
+                <br>
+                <div class="skill-bar"><span>Python </span><br>&nbsp;<progress value="95" max="100"></progress></div> 
+                <div class="skill-bar"><span>C </span><br>&nbsp;<progress value="90" max="100"></progress></div> 
+                <div class="skill-bar"><span>HTML/CSS/JavaScript </span><br><progress value="85" max="100"></progress></div> 
+                <div class="skill-bar"><span>MySQL </span><br>&nbsp;<progress value="70" max="100"></progress></div>
+                <div class="skill-bar"><span>Django </span><br>&nbsp;<progress value="50" max="100"></progress></div>
+                <div class="skill-bar"><span>VS Code </span><br>&nbsp;<progress value="85" max="100"></progress></div>
+                <div class="skill-bar"><span>Git/GitHub </span><br>&nbsp;<progress value="80" max="100"></progress></div> 
+                <br>
+                <h3><b>Languages</b></h3>
+                <br>
+                <div class="skill-bar">
+                    <span>English </span><progress value="95" max="100"></progress> &nbsp;&nbsp;
+                    <span>Malayalam </span><progress value="100" max="100"></progress>
+                </div> 
+            </div>
+
+            <!-- EDUCATION SECTION -->
+            <div id="education" class="education-box">
+                <h2>Education</h2>
+                <div class="edu-box">
+                <p><strong>B.Tech in Computer Science and Engineering</strong> - Mount Zion College of Engineering, Pathanamthitta, Kerala</p>
+                <p>Graduation Year: 2025</p>
+                <br>
+                <p><strong>Higher Secondary Education</strong> - St. Mary's Residential Public School, Pathanamthitta, Kerala</p> 
+                <p>Year of Completion: 2021</p>
+                </div>
+                <br>
+
+                <!-- CERTIFICATIONS SECTION -->
+                    <h2>Certifications & Courses</h2>
+                    <div class="certificate-box">
+                        <!-- List of certifications and courses-->
+                        <div class="nptel-box">
+                                <strong>Python for Data Science –  NPTEL</strong><br>
+                                <!--<a href="images/NPTEL Python.pdf" target="_blank">View Certificate</a>-->
+                        </div>
+                        <div class="scaler-box">
+                            <strong>Python Course for Beginners: Mastering Essentials - Scaler</strong><br>
+                            <!--<a href="images/Python-Scaler.pdf" target="_blank">View Certificate</a>-->
+                        </div>
+                        <div class="python-mimo-box">
+                            <strong>Python AI Development – Mimo</strong><br>
+                            <!--<a href="images/Python AI Development.pdf" target="_blank">View Certificate</a>-->
+                        </div>
+                        <div class="sql-mimo-box">                            
+                            <strong>SQL – Mimo</strong><br>
+                            <!--<a href="images/SQL-mimo.pdf" target="_blank">View Certificate</a>-->
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== INTERNSHIP / EXPERIENCE SECTION ===================== -->
+    <section id="internships" class="section">
+        <h2>INTERNSHIP EXPERIENCE</h2>
+        <div class="exp-container">
+            <!-- List of internship experiences with company name, duration, and description-->
+            <div class="keltron">
+            <strong>Student Intern
+                    <br>Keltron Equipment Complex, Trivandrum
+                    <br>Duration:August 2022 – September 2022
+                    </strong>
+                    <br>
+                    <ul>
+                        <li>
+                            Explored Power Electronics, Security & Surveillance Systems, and Technology Development Centers.
+                        </li>
+                        <li>Observed and understood the working of Power Electronics Group (PEG) and Security and Surveillance Group (SSG), 
+                            enhancing knowledge of electronic systems and embedded applications.</li>
+                        <li>
+                            Gained insights into System Development Life Cycle and ERP systems in an industrial environment.
+                        </li>
+                        <li>
+                            Strengthened understanding of software-hardware integration and real-time system operations.
+                        </li>
+                    </ul>
+                    <!--<a href="images/Internship KELTRON.pdf">Certificate</a>-->
+            </div>
+                <br>
+            <div class="stech">
+                <strong>Python-Django Developer Intern
+                    <br>S-Technologies Coding Campuz, Kochi
+                    <br>Duration:January 2025 – March 2025
+                    </strong>
+                    <br>
+                    <ul>
+                        <li>
+                            Developed Wayfarer Connect, a full-stack travel management web app using Python-Django.
+                        </li>
+                        <li>
+                            Gained hands-on experience in frontend and backend development, database integration, and user authentication.
+                        </li>
+                        <li>
+                            Enhanced skills in web design, debugging, and real-world project implementation.
+                        </li>
+                        <li>
+                            Improved confidence in building structured, responsive, and user-focused applications.
+                        </li>
+                    </ul>
+                    <!--<iframe src="images/S-Technologies.pdf">Certificate</a>-->
+            </div>
+        </div>
+    </section>
+
+        <!-- ===================== PROJECTS SECTION ===================== -->
+    <section id="projects" class="section" style="background-color: #8f4c70;">
+        <h2 style="color: #ffffff;">PROJECTS</h2>
+        <!-- List of projects in a grid layout with images and descriptions. Also includes a link to the GitHub repository-->
+        <div class="projects-grid" >
+            <div class="project-card" onclick="window.open('https://github.com/Sreya-Prasad/Wayfarer-Connect', '_blank')">
+                <img src="images/wayfarer.jpg" class="image"alt="Wayfarer Project">
+                <h3>Wayfarer Connect</h3>
+                <p>A tour and travel management platform with real-time tracking, booking, emergency alerts, and more. Built with Python-Django.</p>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/Sreya-Prasad/Sreya-Ann-Prasad-Portfolio', '_blank')">
+                <img src="images/portfolio.jpg" class="image" alt="Portfolio Project">
+                <h3>Personal Portfolio</h3>
+                <p>Responsive and modern portfolio website to showcase my skills and projects. Created using HTML, CSS, and Bootstrap.</p>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/Sreya-Prasad/Real-Time-Hand-Gesture-Recognition-Using-CNN', '_blank')">
+                <img src="images/handgesture.png" class="image" alt="Gesture Recognition">
+                <h3>Real-Time Hand Gesture Recognition</h3>
+                <p>A mini project using computer vision and CNN to recognize hand gestures in real time. Implemented using OpenCV and trained models.</p>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/Sreya-Prasad/Interactive-Quiz', '_blank')" >
+                <img src="images/quiz.jpg" class="image" alt="Quiz App">
+                <h3>Interactive Quiz Web App</h3>
+                <p>A web-based quiz platform with timer, scoring, and result tracking. Built using HTML, CSS, JavaScript.</p>
+            </div>
+            <div class="project-card" onclick="window.open('https://github.com/Sreya-Prasad/Basic-Calculator', '_blank')">
+                <img src="images/basiccalc.jpg" class="image" alt="Basic Calculator App">
+                <h3>Basic Calculator</h3>
+                <p>A basic calculator web application for arithmetic problem solving. Built using HTML, CSS, JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p class="intro-contact" style="text-align:center;">I'm always eager to collaborate on exciting projects or discuss the advancements in technologies. 
+            Feel free to reach out to me through my contact information below.</p>
+        <br>
+        <!-- Contact Information-->
+        <div class="contact-details" style="text-align:center;">
+            <div><i class="fas fa-map-marker-alt"></i><h3>Address</h3><p>Alappuzha, Kerala, India</p></div>
+            <br>
+            <div><i class="fas fa-envelope"></i><h3>Email</h3><p>sreyaannprasad@gmail.com</p></div>
+            <br>
+            <div><i class="fas fa-globe"></i><h3>Download Resume</h3><a href="images/SREYA ANN PRASAD.pdf" target="_blank">Resume</a></div>
+            <br>
+        </div>
+        <br>
+
+        <!-- Contact Me section -->
+        <h3 style="text-align:center; font-size: 45px;">Have a Question?</h3>
+        <br><br>
+        <!-- Contact Form -->
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <input type="text" id="title" placeholder="Subject" required />
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="button">Send Message</button>
+            <p id="formFeedback"></p>
+        </form>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer text-center py-4">
+        <p>&copy; 2025 Sreya Prasad. All rights reserved.</p>
+    </footer>
+
+    <!-- ===================== SCRIPTS ===================== -->
+    <!-- EmailJS for contact form submission -->
+            <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <!-- Custom JS -->
+            <script src="index.js"></script>
+
+</body>
+</html>
