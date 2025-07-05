@@ -1,0 +1,396 @@
+/* Sets the margin, padding , and box-sizing for the  all elements */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+/* Sets the font family,background for both html and body. Also makes the scroll-behaviour to smooth */
+    html, body {
+        font-family: 'Roboto', sans-serif;
+        scroll-behavior: smooth;
+        background: linear-gradient(to right, #eaf6f6, #ffe8ec);
+      }
+      
+/* NAVBAR STYLING */
+    .navbar {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background-color: #2b124c;
+          padding: 0.8rem 1rem;
+          box-shadow: 1 2px 6px rgba(0,0,0,0.2);
+          z-index: 1000;
+        }
+  /* NAVBAR ITEMS */
+      .nav-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 2rem;
+            }
+  /* Styling logo */
+      .logo {
+            color: white;
+            font-size: 1.4rem;
+            text-decoration: none;
+            font-weight: bold;
+          }
+  /* Navigation button styling */
+      .nav-buttons {
+                display: flex;
+                gap: 4rem;
+              }
+
+      .nav-btn {
+              text-decoration: none;
+              background-color: #2b124c;
+              color: rgb(255, 255, 255);
+              padding: 0.5rem 1rem;
+              border-radius: 15px;
+              font-size: 1rem;
+              transition: background-color 0.3s ease;
+          }
+    /* Hover effect on nav buttons*/
+      .nav-btn:hover {
+              background-color: #e85c50;
+                }
+    /* Active state for nav buttons */
+      .nav-btn.active {
+              border-bottom: 2px solid #ff4081;
+              color: #ff4081;
+              font-weight: bold;
+                }
+
+/* Push content below the navbar */
+    body {
+        padding-top: 80px;
+      }
+
+/* Responsive design for header section*/
+      .hero {
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(120deg, #fff5e6, #e6f7ff);
+        padding: 2rem;
+        font-family: 'Playfair Display', serif;
+        overflow: hidden;
+      }
+
+      /* Responsive design for contents/texts in hero section */
+      .hero-text {
+        flex: 1;
+        padding: 2rem;
+        animation: slideInLeft 1s ease-out;
+      }
+
+      .hero-text h1 {
+        font-size: 4rem;
+        color: #3d3d5c;
+        line-height: 1.2;
+      }
+
+      .hero-text p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: #3a3a3a;
+      }
+
+      /* Responsive design for button in hero section */
+      .hero-text button {
+        margin-top: 1.5rem;
+        padding: 0.8rem 1.5rem;
+        background: #ff6f61;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+      }
+
+      .hero-text button:hover {
+        background: #ff3b2e;
+      }
+
+      /* Responsive design for image in hero section */
+      .hero-image {
+        flex: 1;
+        animation: slideInRight 1s ease-out;
+      }
+
+      .hero-image img {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+/* Responsive design for all sections in html */
+      section {
+        padding: 4rem 2rem;
+        background: #ffffff;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+      }
+
+      /* Responsive design for headings */
+      section h2 {
+        font-size: 2.5rem;
+        color: #333366;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+
+      /* Responsive design for paragraphs/contents */
+      .content {
+        font-size: 1.1rem;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .section:nth-child(even) {
+        background: #f0f9ff;
+      }
+
+/* Responsive design for about me section*/
+      .about-contact-container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      /* Responsive design for about, contact section and to show it in a row */
+      .about-box, .contact-box {
+        flex: 1 1 400px;
+        padding: 2rem;
+        background: #ffffff;
+        border-radius: 15px;
+        text-align: justify;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+      }
+
+      /* Responsive design for resume download button*/
+      #resume-btn {
+            background-color: #522b5b;
+          }
+      #resume-btn:hover {
+            background-color: #300530;
+              } 
+
+      /* Responsive design for profile image*/
+      .contact-box img {
+        max-width: 150px;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        border: 3px solid #36006f;
+      }
+
+      /* Responsive design for paragraphs in about and contact section */
+      .contact-box p, .about-box p {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+      }
+
+      /* Responsive design for social media icons */
+      .contact-links a {
+        margin: 0 1rem;
+        font-size: 1.5rem;
+        color: #0077b6;
+        text-decoration: none;
+      }
+
+      .contact-links a:hover {
+        color: #023e8a;
+      }
+
+/* Responsive design for skills section */
+      .skills-container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      /* To show skill and education in a responsive way */
+      .skill-box, .education-box {
+        flex: 1 1 400px;
+        padding: 2rem;
+        background: #ffffff;
+        border-radius: 15px;
+        text-align: justify;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .skill-box:hover, .education-box:hover {
+        transform: translateY(-5px);
+      }
+
+      /* Responsive design for certificate section */
+        .certificate-box {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* 2 columns */
+                gap: 2rem;
+                padding: 2rem;
+                justify-items: center;
+                  }
+
+          /* Responsive design for showing list of certificates*/
+            .nptel-box,
+              .scaler-box,
+                .python-mimo-box,
+                  .sql-mimo-box {
+                                    width: 100%;
+                                    max-width: 300px;
+                                    padding: 1.5rem;
+                                    background: #ffffff;
+                                    border-radius: 15px;
+                                    text-align: justify;
+                                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                    transition: transform 0.3s ease;
+                                  }
+
+/* Responsive design for project section. To show project in a grid layout */
+      .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      /* Responsive design for project card */
+      .project-card {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: 0 14px 12px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .project-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      }
+
+      .project-card h3 {
+        margin-bottom: 0.5rem;
+        color: #3d3d5c;
+      }
+
+      .project-card p {
+        font-size: 1rem;
+        color: #444;
+      }
+    /* To fit image within the project card */
+      .image {
+          width: 100%;          /* Image takes 100% width of its parent */
+          height: auto;         /* Maintain aspect ratio */
+          object-fit: contain;  /* Fit inside the box without stretching */
+          display: block;       /* Remove extra bottom space */
+        }
+
+/* Responsive design for experience section */
+  .exp-container {
+        display: block;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      /* Responsive design for list of experience */
+      .keltron, .stech {
+        flex: 1 1 400px;
+        padding: 2rem;
+        background: #ffffff;
+        border-radius: 15px;
+        text-align: justify;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+      }
+
+/* Footer section */
+      footer {
+        text-align: center;
+        padding: 2rem;
+        background: #3d3d5c;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+
+/* To add responsive motion */
+      @keyframes slideInLeft {
+        from { transform: translateX(-100px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+      }
+
+      @keyframes slideInRight {
+        from { transform: translateX(100px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+      }
+
+
+/* Image protection - Disable user interaction */
+      image{
+          pointer-events: none;
+          user-select: none;
+        }
+
+/* Contact Me Section*/
+  .container {
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* Responsive Design for Contact Form */
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    /* Responsive design for Send message button */
+    .button {
+      width: 100%;
+      padding: 12px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Error message */
+    .error {
+      color: red;
+      font-size: 14px;
+      text-align: center;
+    }
+    
+    /* Success message */
+    .success {
+      color: green;
+      font-size: 14px;
+      text-align: center;
+    }
