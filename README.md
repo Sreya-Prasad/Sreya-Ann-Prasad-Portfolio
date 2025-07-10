@@ -47,7 +47,7 @@ This portfolio is designed to create a professional digital presence and include
 1. Clone the repository  
    `git clone https://github.com/Sreya-Prasad/Sreya-Ann-Prasad-Portfolio.git`
 
-2. Open `portfolio.html` in your browser to view the site locally.
+2. Open `index.html` in your browser to view the site locally.
 
 3. To enable the contact form:
    - Set up an account on [EmailJS](https://www.emailjs.com/)
