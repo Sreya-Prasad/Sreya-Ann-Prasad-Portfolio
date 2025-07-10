@@ -56,28 +56,22 @@ This portfolio is designed to create a professional digital presence and include
 OR
 
 **🚀 How to Host a Website Using GitHub Pages:**
+
 🔹 Step 1: Create a GitHub Repository
+
 - Go to https://github.com and log in.
-
 - Click the ➕ New Repository button.
-
 - Enter a repository name (e.g., portfolio-website).
-
 - Choose Public visibility.
-
 - ✅ Check "Initialize with a README".
-
 - Click Create repository.
 
 🔹 Step 2: Upload Your Website Files
+
 - Click Add file → Upload files.
-
 - Drag and drop your HTML, CSS, and JS files.
-
 - Click Commit changes.
-
 - (Or) use Git:
-
 ```
 Copy
 Edit
@@ -88,35 +82,34 @@ git branch -M main
 git remote add origin https://github.com/yourusername/repo-name.git
 git push -u origin main
 ```
+
 🔹 Step 3: Enable GitHub Pages
+
 - Go to your repository's Settings.
-
 - Scroll down and click Pages in the sidebar.
-
 - Under Source, select:
-
-- Branch: main (or master)
-
-- Folder: / (root)
-
+- - Branch: main (or master)
+- - Folder: / (root)
 - Click Save.
 
 🔹 Step 4: Get Your Live Website Link
+
 -  GitHub generates a URL like:
 https://yourusername.github.io/repository-name/
 - Open it to view your live site!
 
 🔹 Step 5: Make Sure It Works
+
 - Ensure your homepage is named index.html.
 - Check all file paths (CSS, JS) are correct and relative.
-- To display images, make sure your image path is ./foldername/filename
+- To display images, make sure your image path is ./foldername/filename in the html file.
   
 Demo: [Tutorial](https://www.youtube.com/watch?v=BT4WzyT2g8k)
 
 ---
 ---
 To visit site:
-My Personal Portfolio:
+   My Personal Portfolio:
 [Sreya-Ann-Prasad-Portfolio](https://sreya-prasad.github.io/Sreya-Ann-Prasad-Portfolio/)
 
 ---
@@ -128,5 +121,6 @@ My Personal Portfolio:
 - **GitHub**: [github.com/Sreya-Prasad](https://github.com/Sreya-Prasad)
 ---
 ---
-Thank you for visiting my portfolio! 🌟
+**Thank you for visiting my portfolio! 🌟**
+
 ---
